@@ -38,6 +38,3 @@ input[type="button"]:active{
 input[type="text"]{
     text-align: center;
  }
-input[type="text"]::placeholder{
-    /* text-align: center; */
-}

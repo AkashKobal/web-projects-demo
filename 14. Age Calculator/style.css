@@ -52,13 +52,12 @@ input {
 }
 
 #calculateAge {
+    width: -moz-fit-content;
     width: fit-content;
     padding-left: 15px;
     padding-right: 15px;
     border-color: transparent;
     background-color: rgba(255, 255, 255, 0.805);
-
-
 }
 
 #date {

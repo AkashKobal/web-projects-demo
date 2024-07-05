@@ -139,6 +139,6 @@ body{
   }
 }
 #firstName{
-
+  width: -moz-fit-content;
   width: fit-content;
 }
