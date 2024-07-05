@@ -6,16 +6,16 @@ let image2 = document.getElementById("image2");
 
 
 if (randomNumber1 > randomNumber2) {
-    winner.innerText = "Player 1 won 👑";
+    winner.innerText = "Player 1 won 👑" +"Refresh page to roll";
     image1.src = "dice" + randomNumber1 + ".png";
 
 }
 else if (randomNumber1 == randomNumber2) {
-    winner.innerText = "Draw 🙃"
+    winner.innerText = "Draw 🙃" +"Refresh page to roll";
     image1.src = "dice" + randomNumber1 + ".png";
     image2.src = "dice" + randomNumber2 + ".png";
 }
 else {
-    winner.innerText = "Player 2 won 👑"
+    winner.innerText = "Player 2 won 👑"+"Refresh page to roll";
     image2.src = "dice" + randomNumber2 + ".png";
 }

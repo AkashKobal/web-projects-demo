@@ -23,22 +23,32 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: 60px;
 
 }
 
 .player,
 .player {
     margin: 20px;
+    margin-top: 20px;
 }
 
 h1,
 p {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     color: #2b0a0a;
     font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 2px 2px 10px #e18383;
+    margin-top: ;
+}
+img{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
 }

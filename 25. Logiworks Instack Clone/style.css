@@ -29,13 +29,13 @@
     /* margin-bottom: 20px; */
     /* margin-top: 20px; */
     justify-content: center;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     border-color: #1847ad;
     border-radius: 5px;
     color: #1847ad;
     padding: 5px;
     /* padding-left: 10px; */
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 .sectionone {
@@ -43,7 +43,7 @@
     margin-left: -35px;
     padding-left: 40px;
     height: 60px;
-    width: 1640px;
+    width: 582px;
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 5px;
@@ -58,7 +58,7 @@
 }
 
 .repostBtn1 {
-    margin-left: 1245px;
+    /* margin-left: 200px; */
     border-radius: 5px;
     background-color: transparent;
     color: #b81a29;
@@ -95,8 +95,9 @@ label {
 
 .questionss {
     position: absolute;
-    top: 8%;
-    left: 2%;
+    /* top: 8%; */
+    left: 5%;
+    
 
 }
 
@@ -104,7 +105,7 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
     border: 1px solid black;
-    width: 1560px;
+    /* width: 1560px; */
 }
 
 h6 {
@@ -202,19 +203,24 @@ h6 {
 
 .section {
     background-color: rgba(128, 128, 128, 0.342);
-    height: 100vh;
-    width: 100%;
+    /* height: 100vh; */
+    /* width: 300px; */
+    position: absolute;
+    left: 66%;
+    /* top: 40%; */
+
 
 }
 
 .section-buttons {
     background-color: #179c53;
-    width: 13%;
+    width: 90%;
     display: flex;
     position: absolute;
-    bottom: 0;
+    /* top: 10%; */
+    bottom: -55px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     justify-content: center;
     margin-left: 15px;
     border-color: transparent;
@@ -226,15 +232,15 @@ h6 {
 
 .sectiontwo {
     position: absolute;
-    top: 235%;
+    top: 105%;
     background-color: rgba(128, 128, 128, 0.178);
     margin-left: -35px;
     padding-left: 40px;
     height: fit-content;
-    width: 1630px;
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    margin-top: 5px;
+    margin-top: 25px;
 }
 
 #buttontwo {
@@ -246,6 +252,6 @@ h6 {
 #buttontwo2 {
     font-size: medium;
     position: absolute;
-    left: 90%;
+    /* left: 90%; */
     margin-left: 50px;
 }
