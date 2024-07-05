@@ -1,0 +1,108 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    background-color: transparent !important;
+    ;
+    border-radius: 5px;
+    ;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    height: 50px;
+    margin-right: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #161010ce;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:focus {
+    outline: 0;
+    border-color: #2260ff;
+}
+
+.mydict div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+
+
+label span {
+    display: block;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0.375em .75em;
+    position: relative;
+    margin-left: .0625em;
+    box-shadow: 0 0 0 0.0625em #b5bfd9;
+    letter-spacing: .05em;
+    color: #3e4963;
+    text-align: center;
+    transition: background-color .5s ease;
+}
+
+label:first-child span {
+    border-radius: .375em 0 0 .375em;
+}
+
+label:last-child span {
+    border-radius: 0 .375em .375em 0;
+}
+
+
+:focus {
+    outline: 0;
+    border-color: #2260ff;
+    color: black;
+}
+
+.mydict div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+
+
+label span {
+    display: block;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0.375em .75em;
+    position: relative;
+    margin-left: .0625em;
+    box-shadow: 0 0 0 0.0625em #b5bfd9;
+    letter-spacing: .05em;
+    color: #3e4963;
+    text-align: center;
+    transition: background-color .5s ease;
+}
+
+label:first-child span {
+    border-radius: .375em 0 0 .375em;
+}
+
+label:last-child span {
+    border-radius: 0 .375em .375em 0;
+}
+
+
+.mydict div label span:hover {
+    background-color: #0043edc8;
+    color: black;
+
+}

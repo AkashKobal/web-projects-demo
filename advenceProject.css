@@ -1,0 +1,29 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    background-color: transparent !important;
+    ;
+    border-radius: 5px;
+    ;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1f1c1c5d;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    height: 50px;
+    margin-right: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #161010ce;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
